@@ -1,0 +1,5 @@
+<IfModule mod_rewrite.c>
+    # Enable URL rewriting for the router
+    RewriteEngine On
+    RewriteRule ^(.*)$ index.php?p=/$1 [QSA,L]
+</IfModule>
