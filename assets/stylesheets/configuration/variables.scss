@@ -1,0 +1,33 @@
+
+$width-desktop: 1000px;
+
+$font-size-standard: 100%;
+$font-size-rem-fallback: 16;
+$line-height-standard: 1.5;
+
+$font-family-standard: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+
+$spacing-small: 0.5rem;
+$spacing-medium: 1rem;
+$spacing-large: 1.5rem;
+$spacing-huge: 2rem;
+$spacing-standard: $spacing-medium;
+
+$z-index-low: 10;
+$z-index-middle: 20;
+$z-index-high: 30;
+$z-index-highest: 100;
+
+$color-white: #fff;
+$color-black: #1e1e1e;
+$color-grey: #e5e5e5;
+$color-red: #f00;
+$color-green: #88B04B;
+
+$color-structure: $color-grey;
+$color-highlight: $color-red;
+$color-main: $color-black;
+$color-font: $color-main;
+$color-background: $color-white;
+
+$opacity-standard: 0.7;

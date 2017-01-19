@@ -1,0 +1,25 @@
+
+    .table {
+        margin-top: $spacing-standard;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .table__header {
+        font-weight: bold;
+        background-color: $color-green;
+        color: $color-white;
+    }
+
+    .table__cell {
+        padding: $spacing-small;
+        border: 1px solid $color-green;
+    }
+
+@media all and (max-width: 400px) {
+
+    .table {
+        width: 100%;
+    }
+
+}
