@@ -1,9 +1,16 @@
 <?php
 
-    $router->addRoute('/', function () {
-        echo file_get_contents('views/home.html');
-    });
+$router->addRoute('/', function () {
+    if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+        $this->doWatering((int) $_POST['amount']);
+    }
 
-    $router->addRoute('404', function () {
-        die('Page not found');
-    });
+    $databaseConnection = new \Kickstart\Base\DatabaseConnection();
+    $log = $databaseConnection->getLog();
+
+    require 'views/home.php';
+});
+
+$router->addRoute('404', function () {
+    die('Seite nicht gefunden');
+});
