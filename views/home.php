@@ -13,7 +13,7 @@
         <main class="main">
             <form class="form" action="#" method="POST">
                 <label class="form__label">
-                    <input class="form__input" type="number" name="amount" placeholder="Menge" min="100" max="1000" required><span class="form__input-aside">ml</span>
+                    <input class="form__input" type="number" name="amount" placeholder="Menge"><span class="form__input-aside">ml</span>
                 </label>
                 <button class="form__button form__button--will-load" type="submit">Wässern</button>
             </form>
